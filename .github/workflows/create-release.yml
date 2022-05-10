@@ -1,11 +1,11 @@
 name: Create Release Branch
 
 env:
-JENKINS_NODE = zlux-agent
-GITHUB_PROJECT = zowe
-GITHUB_SSH_KEY = zlux-jenkins
-RELEASE_BRANCH = v2.x/rc
-MASTER_BRANCH = v2.x/master
+JENKINS_NODE: zlux-agent
+GITHUB_PROJECT: zowe
+GITHUB_SSH_KEY: zlux-jenkins
+RELEASE_BRANCH: v2.x/rc
+MASTER_BRANCH: v2.x/master
 
 GITHUB_TOKEN:${{secrets.GITHUB_TOKEN}}
 
